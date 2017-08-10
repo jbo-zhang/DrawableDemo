@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--如果src不是.9图，会报这个错误 <nine-patch> requires a valid 9-patch source image-->
+<nine-patch xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/th"
+    android:dither="true"
+    />

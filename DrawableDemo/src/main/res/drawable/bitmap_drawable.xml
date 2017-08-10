@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--antialias 防锯齿-->
+<!--dither 抖动-->
+<!--gravity 方位， 默认fill即长宽都拉伸-->
+<!--filter 过滤效果，当图片尺寸被拉伸或者压缩时，开启过滤效果可以保持较好的显示-->
+<!--tilemode 平铺模式，开启后gravity失效-->
+
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/th"
+    android:antialias="true"
+    android:dither="true"
+    android:gravity="bottom"
+    android:filter="true"
+    android:tileMode="mirror"
+/>
